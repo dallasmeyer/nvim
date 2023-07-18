@@ -2,6 +2,8 @@ return {
 
   { "Mofiqul/vscode.nvim" },
 
+  { "olimorris/onedarkpro.nvim" },
+
   --{ "akai54/2077.nvim" },
 
   --{ "catppuccin/nvim", name = "catppuccin", lazy = false },
@@ -21,6 +23,7 @@ return {
     "LazyVim/LazyVim",
 
     opts = {
+      --colorscheme = "onedarkpro",
       colorscheme = "vscode",
       --colorscheme = "tokyonight",
       --colorscheme = "2077",
