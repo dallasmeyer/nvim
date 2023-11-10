@@ -2,12 +2,19 @@ return {
 
   { "Mofiqul/vscode.nvim" },
 
-  { "olimorris/onedarkpro.nvim" },
+  -- {
+  --   "Mofiqul/vscode.nvim",
+  --   opts = {
+  --     transparent = true,
+  --     styles = {
+  --       sidebars = "transparent",
+  --       floats = "transparent",
+  --     },
+  --   },
+  -- },
 
   --{ "akai54/2077.nvim" },
 
-  --{ "catppuccin/nvim", name = "catppuccin", lazy = false },
-  --
   -- {
   --   "tokyonight.nvim",
   --   opts = {
@@ -23,26 +30,26 @@ return {
     "LazyVim/LazyVim",
 
     opts = {
-      --colorscheme = "onedarkpro",
-      colorscheme = "vscode",
-      --colorscheme = "tokyonight",
-      --colorscheme = "2077",
+      -- colorscheme = "onedarkpro",
+      -- colorscheme = "vscode",
+      -- colorscheme = "tokyonight",
+      -- colorscheme = "2077",
     },
   },
 
-  {
-    "xiyaowong/transparent.nvim",
-    config = function()
-      require("transparent").setup({
-        extra_groups = {
-          "NormalFloat", -- plugins which have float panel such as Lazy, Mason, LspInfo
-          "NvimTreeNormal", -- NvimTree
-        },
-      })
-    end,
-  },
-  require("notify").setup({
-    background_colour = "#000000",
-    background_highlight = "Normal",
-  }),
+  -- {
+  --   "xiyaowong/transparent.nvim",
+  --   config = function()
+  --     require("transparent").setup({
+  --       extra_groups = {
+  --         "NormalFloat", -- plugins which have float panel such as Lazy, Mason, LspInfo
+  --         "NvimTreeNormal", -- NvimTree
+  --       },
+  --     })
+  --   end,
+  -- },
+  -- require("notify").setup({
+  --   background_colour = "#000000",
+  --   background_highlight = "Normal",
+  -- }),
 }
