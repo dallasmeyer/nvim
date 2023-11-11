@@ -31,7 +31,7 @@ return {
 
     opts = {
       -- colorscheme = "onedarkpro",
-      -- colorscheme = "vscode",
+      colorscheme = "vscode",
       -- colorscheme = "tokyonight",
       -- colorscheme = "2077",
     },
