@@ -1,13 +1,13 @@
 -- found out via extras
 -- allows cycling through puts
+--  using default opt, so that uses shada (not sqlite) for storage
 
 return {
   "gbprod/yanky.nvim",
-  dependencies = {
-    { "kkharji/sqlite.lua" },
-  },
   opts = {
-    ring = { storage = "sqlite" },
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
   },
   keys = {
     {
