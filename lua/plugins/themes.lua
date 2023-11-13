@@ -25,15 +25,17 @@ return {
   --     },
   --   },
   -- },
+  { "bluz71/vim-nightfly-colors", name = "nightfly", lazy = false, priority = 1000 },
 
   {
     "LazyVim/LazyVim",
 
     opts = {
       -- colorscheme = "onedarkpro",
-      colorscheme = "vscode",
+      -- colorscheme = "vscode",
       -- colorscheme = "tokyonight",
       -- colorscheme = "2077",
+      colorscheme = "nightfly",
     },
   },
 
