@@ -3,3 +3,5 @@
 -- Add any additional options here
 vim.opt.winbar = "%=%m %f"
 -- used "source %" to activate this command
+local opt = vim.opt
+opt.relativenumber = false -- Relative line numbers
