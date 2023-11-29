@@ -27,6 +27,13 @@ return {
   -- },
   { "bluz71/vim-nightfly-colors", name = "nightfly", lazy = false, priority = 1000 },
 
+  -- shading is incorrect
+  -- { "projekt0n/github-nvim-theme" },
+
+  { "rebelot/kanagawa.nvim" },
+
+  { "Mofiqul/dracula.nvim" },
+
   {
     "LazyVim/LazyVim",
 
@@ -36,6 +43,8 @@ return {
       -- colorscheme = "2077",
       colorscheme = "nightfly",
       -- colorscheme = "catppuccin",
+      -- colorscheme = "kanagawa",
+      -- colorscheme = "dracula",
     },
   },
 
