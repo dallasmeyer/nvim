@@ -29,4 +29,4 @@ Then:
 - supertab - modified to use tab to cycle through auto-completion (ctrl-e to exit).
 - LeetCode - allows doing leetcode through running ```nvim leetcode.nvim```
 - Yanky - allows cycling through yank buffer through \[ or \] then y
-
+- Added a winbar, that shows the current file in the top.
