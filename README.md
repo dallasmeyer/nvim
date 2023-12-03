@@ -20,3 +20,13 @@ For Mac/Linux:
 Then:
 - Do a git clone of this repository, which creates a nvim folder.
 - Boot up nvim as normal.
+
+# Plug-ins/Features added
+
+- Custom looking dashboard and different themes added
+- Better-Escape - allows quick insert-mode exiting with "jk"
+- flash - modified to allow auto-jumping if only one option left in "s" search
+- supertab - modified to use tab to cycle through auto-completion (ctrl-e to exit).
+- LeetCode - allows doing leetcode through running ```nvim leetcode.nvim```
+- Yanky - allows cycling through yank buffer through \[ or \] then y
+
