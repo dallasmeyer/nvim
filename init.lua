@@ -7,9 +7,9 @@ if vim.g.neovide then
 end
 
 -- Lua initialization file
-vim.g.nightflyTransparent = true
--- vim.cmd([[colorscheme nightfly]])
-vim.cmd([[colorscheme dracula]])
+-- vim.g.nightflyTransparent = true
+vim.cmd([[colorscheme nightfly]])
+-- vim.cmd([[colorscheme dracula]])
 
 -- removes notify error for transparent background
 require("notify").setup({
