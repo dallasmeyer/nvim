@@ -27,12 +27,12 @@ return {
   -- },
   { "bluz71/vim-nightfly-colors", name = nightfly, lazy = false, priority = 1000 },
 
-  -- shading is incorrect
-  -- { "projekt0n/github-nvim-theme" },
-
-  { "rebelot/kanagawa.nvim" },
+  -- shading is incorrect, highlighting is not the best either
+  { "projekt0n/github-nvim-theme" },
 
   { "Mofiqul/dracula.nvim" },
+
+  { "EdenEast/nightfox.nvim" },
 
   {
     "LazyVim/LazyVim",

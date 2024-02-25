@@ -8,8 +8,9 @@ end
 
 -- Lua initialization file
 -- vim.g.nightflyTransparent = true
-vim.cmd([[colorscheme nightfly]])
--- vim.cmd([[colorscheme dracula]])
+-- vim.cmd([[colorscheme nightfly]])
+vim.cmd([[colorscheme carbonfox]])
+-- vim.cmd([[colorscheme github_dark_default]])
 
 -- removes notify error for transparent background
 require("notify").setup({
