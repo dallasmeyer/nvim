@@ -27,6 +27,5 @@ Then:
 - Better-Escape - allows quick insert-mode exiting with "jk"
 - flash - modified to allow auto-jumping if only one option left in "s" search
 - supertab - modified to use tab to cycle through auto-completion (ctrl-e to exit).
-- LeetCode - allows doing leetcode through running ```nvim leetcode.nvim```
-- Yanky - allows cycling through yank buffer through \[ or \] then y
+- Yanky - allows cycling through yank buffer through \[ or \] then y or c-n/c-p
 - Added a winbar, that shows the current file in the top.
