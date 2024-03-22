@@ -13,39 +13,44 @@ return {
   --   },
   -- },
 
-  --{ "akai54/2077.nvim" },
+  {
+    "tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
 
-  -- {
-  --   "tokyonight.nvim",
-  --   opts = {
-  --     transparent = true,
-  --     styles = {
-  --       sidebars = "transparent",
-  --       floats = "transparent",
-  --     },
-  --   },
-  -- },
   { "bluz71/vim-nightfly-colors", name = nightfly, lazy = false, priority = 1000 },
 
-  -- shading is incorrect, highlighting is not the best either
-  { "projekt0n/github-nvim-theme" },
+  -- -- shading is incorrect, highlighting is not the best either
+  -- { "projekt0n/github-nvim-theme" },
 
   { "Mofiqul/dracula.nvim" },
 
   { "EdenEast/nightfox.nvim" },
 
   {
-    "LazyVim/LazyVim",
-
-    opts = {
-      -- colorscheme = "vscode",
-      -- colorscheme = "tokyonight",
-      -- colorscheme = "2077",
-      -- colorscheme = "nightfly",
-      -- colorscheme = "catppuccin",
-      -- colorscheme = "kanagawa",
-      -- colorscheme = "dracula",
-    },
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("cyberdream").setup({
+        -- Enable transparent background
+        transparent = true,          -- Default: false
+        -- Enable italics comments
+        italic_comments = true,      -- Default: false
+        -- Replace all fillchars with ' ' for the ultimate clean look
+        hide_fillchars = true,       -- Default: false
+        -- Modern borderless telescope theme
+        borderless_telescope = true, -- Default: true
+        -- Set terminal colors used in `:terminal`
+        terminal_colors = true,      -- Default: true
+      })
+    end,
   },
 
   -- {
