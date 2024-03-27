@@ -42,6 +42,25 @@ return {
     end,
   },
 
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("cyberdream").setup({
+        -- Enable transparent background
+        transparent = true, -- Default: false
+        -- Enable italics comments
+        italic_comments = true, -- Default: false
+        -- Replace all fillchars with ' ' for the ultimate clean look
+        hide_fillchars = true, -- Default: false
+        -- Modern borderless telescope theme
+        borderless_telescope = true, -- Default: true
+        -- Set terminal colors used in `:terminal`
+        terminal_colors = true, -- Default: true
+      })
+    end,
+  },
   -- {
   --   "xiyaowong/transparent.nvim",
   --   config = function()
