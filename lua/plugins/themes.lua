@@ -13,23 +13,22 @@ return {
   --   },
   -- },
 
-  {
-    "tokyonight.nvim",
-    opts = {
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-        floats = "transparent",
-      },
-    },
-  },
+  -- {
+  --   "tokyonight.nvim",
+  --   opts = {
+  --     transparent = true,
+  --     styles = {
+  --       sidebars = "transparent",
+  --       floats = "transparent",
+  --     },
+  --   },
+  -- },
 
   { "bluz71/vim-nightfly-colors", name = nightfly, lazy = false, priority = 1000 },
 
   -- -- shading is incorrect, highlighting is not the best either
   -- { "projekt0n/github-nvim-theme" },
-
-  { "Mofiqul/dracula.nvim" },
+  -- { "Mofiqul/dracula.nvim" },
 
   {
     "EdenEast/nightfox.nvim",
