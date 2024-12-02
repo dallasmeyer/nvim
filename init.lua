@@ -2,8 +2,8 @@
 require("config.lazy")
 
 if vim.g.neovide then
-  vim.opt.guifont = { "IosevkaTerm Nerd Font", ":h11" }
-  -- vim.g.neovide_refresh_rate = 60
+  vim.opt.guifont = { "JetBrainsMono Nerd Font", ":h11" }
+  vim.g.neovide_refresh_rate = 165
   vim.g.neovide_cursor_animation_length = 0.05 -- default is 0.13
   vim.g.neovide_cursor_animate_in_insert_mode = false -- default is true
 end
@@ -15,7 +15,3 @@ vim.g.nightflyUnderlineMatchParen = false
 -- vim.cmd([[colorscheme nightfly]])
 vim.cmd([[colorscheme cyberdream]])
 
--- removes notify error for transparent background
-require("notify").setup({
-  background_colour = "#000000",
-})
